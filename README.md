@@ -1,8 +1,8 @@
 Hello,
 This is the project about sales prediction using different Machine learning algorithms. Also various Data visualization methods used for graphical representation.
 For this project I used data of Big mart Shopping centre.
-In the Dataframe 1463 values missing  in column  Item Weight and 2410 values missing in column Outlet Size out of total 8522 rows and 12 columns
-Instead of dropping such a large number of data, replacing Nan values with some other value is wise. I used INTERPOLATE method to replace missing values of Item Weight column which is a numeric column. I also used PAD method for missing values in Outlet_Size column which is an object column
+In the Dataframe 1463 values missing  in column  Item Weight and 2410 values missing in column Outlet Size out of total 8522 rows and 12 columns.
+Instead of dropping such a large number of data, replacing Nan values with some other value is wise. I used INTERPOLATE Linear method to replace missing values of Item Weight column which is a numeric column. I also used fillna PAD method for missing values in Outlet_Size column which is an object column
 Also, managed String Inconsistency for column Item Fat Content. 
 ![salesproject3 (1)](https://user-images.githubusercontent.com/82862957/120975917-a708f980-c726-11eb-8052-acd0d5e820d5.png)
 ![salesproject4](https://user-images.githubusercontent.com/82862957/120976362-1ed72400-c727-11eb-8442-91a9535c8859.png)
