@@ -23,7 +23,7 @@ Train_test_split method has been used to split into Test data and Train data.Tra
 ![salesproject10](https://user-images.githubusercontent.com/82862957/120976846-9311c780-c727-11eb-826a-7ab5e7e564f6.png)
 
 >Correlation between OUTLET TYPE and ITEM OUTLET SALES<
-![salesproject15](https://user-images.githubusercontent.com/82862957/120977148-df5d0780-c727-11eb-8b60-a0507c7e21f7.png)
+![Screen Shot 2021-06-06 at 3 40 40 AM](https://user-images.githubusercontent.com/82862957/120981666-be4ae580-c72c-11eb-8821-f7aa9219fab4.png)
 Above graph indicates the Type of OUTLET really affects the and contributes in large number in OUTLET SALES
 
 Linear Regression Model: 
@@ -37,8 +37,12 @@ Score with test Data: 0.45610930332602073
 Random Forest Model: 
 Score with Train data: 0.6177702641715458 
 Score with Test data: 0.6204671735370194
+
+> Max Depth and Model Score <
+![salesproject9](https://user-images.githubusercontent.com/82862957/120981526-98bddc00-c72c-11eb-875d-d2a7ed65070f.png)
+
 Random Forest Model is giving best score out all. It is even performing better in Test data. 0.62 is best score retrieved after trying multiple parameters tuning for Random forest model.
-![salesproject9](https://user-images.githubusercontent.com/82862957/120979094-13392c80-c72a-11eb-9598-9d7538656ab6.png)
+
 
 For Features significance and their impact on Sales, Its found from analysis that Item MRP has Highest impact and contribution on Total Sales but its not advise to increase the Item price which can impact negative in future. Instead Other areas should be more focused like, OUTLET TYPE and ITEM TYPE have very high impact on Sales.
 Grocery Stores have negative Correlation with Sales, so upgrading Grocery Stores to Type 1 or bigger Type can really impact the sales in great manner.
