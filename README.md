@@ -27,21 +27,22 @@ Train_test_split method has been used to split into Test data and Train data.Tra
 Above graph indicates the Type of OUTLET really affects the and contributes in large number in OUTLET SALES
 
 Linear Regression Model: 
-Score with Train Data: 0.5550005285787925 
-Score with Test Data: 0.588649515596599
+Score with Train Data: 0.5550005285787925,
+Score with Test Data: 0.588649515596599;
 
 KNN model: 
-Score with train data: 0.6031768916686765 
-Score with test Data: 0.45610930332602073
+Score with train data: 0.6031768916686765, 
+Score with test Data: 0.45610930332602073;
 
 Random Forest Model: 
-Score with Train data: 0.6177702641715458 
-Score with Test data: 0.6204671735370194
+Score with Train data: 0.6177702641715458,
+Score with Test data: 0.6204671735370194;
+
+Random Forest Model is giving best score out all. It is even performing better in Test data. 
 
 > Max Depth and Model Score <
 ![salesproject9](https://user-images.githubusercontent.com/82862957/120981526-98bddc00-c72c-11eb-875d-d2a7ed65070f.png)
-
-Random Forest Model is giving best score out all. It is even performing better in Test data. 0.62 is best score retrieved after trying multiple parameters tuning for Random forest model.
+0.62 is best score retrieved after trying multiple parameters tuning for Random forest model.
 
 
 For Features significance and their impact on Sales, Its found from analysis that Item MRP has Highest impact and contribution on Total Sales but its not advise to increase the Item price which can impact negative in future. Instead Other areas should be more focused like, OUTLET TYPE and ITEM TYPE have very high impact on Sales.
